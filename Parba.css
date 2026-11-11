@@ -16,9 +16,10 @@ header{
 display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 80px;
+    padding:20px 90px;
     background:#eef2f3;
-     box-shadow: 0 3px 8px rgba(2, 32, 61, 0.5);
+     box-shadow: 0 3px 8px rgba(2, 22, 41, 0.5);
+    
 }
 
 
@@ -38,7 +39,8 @@ nav ul {
 nav a{
     text-decoration:none;
     color:white;
-    font-weight:300;
+     font-weight: bold;
+     font-size: small;
 }
 
 .clic {
@@ -51,6 +53,8 @@ nav a{
     cursor:pointer;
     font-weight:bold;
     color: #14566c;
+   font-size: larger;
+    
 }
 .partie1{
     display:flex;
@@ -85,12 +89,13 @@ nav a{
     background: #0f7188;
     color:white;
     border:none;
-    padding:15px 30px;
+    padding:15px 15px;
     border-radius:5px;
     cursor:pointer;
-    width: 130px;
+    width: 140px;
     align-self: center;
     margin-left: 25%;
+    font-size: larger;
 }
 
 .Droite{
@@ -105,13 +110,14 @@ nav a{
 
 .bouttdroite{
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 15px;
     border: 1px solid #0f7188;
     background: white;
     border-radius: 5px;
     margin-right: 35%;
     margin-bottom: 15px;
     color: #0f7188;
+    font-size: larger;
 }
 
 .partie2{
@@ -145,6 +151,8 @@ nav a{
 .partie3 h1{
     color: #14566c;
     margin-bottom: 40px;
+   font-weight: bolder;
+   font-size: 50px;
 }
 
 .nospartenaires{
@@ -170,8 +178,8 @@ nav a{
     .partie3 h1::before{
     content: "";
     display: block;
-    width: 200px;
-    height: 4px;
+    width: 300px;
+    height: 9px;
     background-color: #0f7188;
     margin: 10px auto;
     border-radius: 10px;
@@ -180,13 +188,14 @@ nav a{
 
 .partie4{
     text-align: center;
-    padding: 70px;
+    padding: 50px;
 }
 
 .partie4 h1{
     color: #14566c;
     margin: 40px;
     width: 100%;
+    font-size: 50px;
 }
 .adams,
 .juliette{
@@ -221,24 +230,29 @@ nav a{
 .contact h1{
     color: #14566c;
     margin-bottom: 30px;
+    font-size: 70px;
 }
 
 .contact form{
-    background: #0f7188;
-    width: 600px;
+    background: #0e5768;
+    width: 90%;
     max-width: 100%;
     margin: auto;
     padding: 30px;
-
+    padding-left: 250px;
+    padding-right: 250px;
+height: 750px;
+padding-top:100px ;
 }
 .contact h1::before{
     content: "";
     display: block;
-    width: 200px;
-    height: 4px;
+    width: 300px;
+    height: 10px;
     background-color: #0f7188;
     margin: 10px auto;
     border-radius: 10px;
+    
 }
 
 .champ{
@@ -246,6 +260,7 @@ nav a{
     flex-direction:column;
     margin-bottom:20px;
     text-align:left;
+    justify-content: space-between;
     
 }
 .champ label{
@@ -257,13 +272,18 @@ nav a{
 .champ textarea{
     padding:12px;
     border:none;
+    border-radius: 5px;
+    
+}
+.champ input{
+    height: 50px;
 }
 .champ textarea{
     height: 120px;
 }
 
 footer{
-    background:#020b18;
+    background:#000003;
     color:white;
     padding:50px 80px;
     display: flex;
@@ -280,7 +300,13 @@ footer{
 .bdroite{
     display: flex;
     justify-content: flex-end;
+    
    
+}
+.reseaux2{
+    display: flex;
+    margin-left: 550px;
+    margin-bottom: 40px;
 }
 
 .copyright{
